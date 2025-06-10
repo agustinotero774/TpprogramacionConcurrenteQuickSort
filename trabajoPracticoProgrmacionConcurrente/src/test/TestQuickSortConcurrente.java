@@ -8,7 +8,7 @@ public class TestQuickSortConcurrente {
 	public static void main(String[] args) {
 			
 		
-		    int[] datos = generarArrayAleatorio(40000000);
+		    int[] datos = generarArrayAleatorio(10000);
 	        long inicio = System.currentTimeMillis();
 	        QuickSortConcurrente.quickSortConcurrente(datos, 0, datos.length - 1);
 	        long fin = System.currentTimeMillis();

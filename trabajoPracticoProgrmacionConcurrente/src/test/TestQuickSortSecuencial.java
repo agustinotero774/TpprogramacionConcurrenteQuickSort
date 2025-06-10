@@ -10,7 +10,7 @@ public class TestQuickSortSecuencial {
 		
 		
 
-		int[] datos = generarArrayAleatorio(40000000);
+		int[] datos = generarArrayAleatorio(10000);
 		
       
 		long inicio = System.currentTimeMillis();
