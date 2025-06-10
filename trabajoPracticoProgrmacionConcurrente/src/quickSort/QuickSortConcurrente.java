@@ -55,7 +55,7 @@ public class QuickSortConcurrente {
         arr[j] = temp;
     }
     
-    public static void imprimirArray(int[] arr) {
+    public static void imprimirArray(int[] arr) {// impresion del array
         for (int num : arr) {
             System.out.print(num + " ");
         }
